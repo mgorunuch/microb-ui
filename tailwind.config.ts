@@ -14,6 +14,9 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    daisyui: {
+      themes: ["sunset"],
+    },
   },
   plugins: [daisyui],
 } satisfies Config;
